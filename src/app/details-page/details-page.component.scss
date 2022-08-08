@@ -1,0 +1,14 @@
+.details_page{
+    .details_block{padding: 20px 58px;background:chartreuse;height:1000px;
+        .details_inner{display: flex;align-items:center;height: 100%;padding:15px;
+            .details_left{width: 50%;background: chocolate;height: 100%;padding:5px;
+                .details_main_image{width: 100%;height: 60%;background: black;}
+                .details_sub_images{padding: 15px 5px 10px;display:flex;justify-content:center;align-items:center;width:calc(100% - 10px);height:100px;
+                    .subImage_block{width: 20%;padding: 5px;height: 100%;background: blue;}
+                }
+            }
+            .details_right{width: 50%;padding: 25px 10px;background: cornflowerblue;}
+        }
+    }
+}
+img{width: 100%;height: 100%;}

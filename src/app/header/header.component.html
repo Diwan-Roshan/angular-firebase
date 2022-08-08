@@ -1,28 +1,40 @@
-<div class="a"  style="background-color: aqua;margin: 0;padding: 0;">
-    <div class="b" style="padding: 0 30px;">
-        <div class="c" style="font-size: 18px;display: flex;align-items: center;">
-            <div class="logo" style="width: 85px;height: 40px;margin: 10px 0;background: blue;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiQL7-Ghj-Sc1NVslbdCATU8cc5WrtGSfpNA&usqp=CAU" style="margin-right: 20px;" alt=""></div>
-            <div class="menu" style="">
-                <!-- <ul style="">
-                    <li style="float: left;list-style: none;padding: 16px 12px;"><a style="text-decoration: none;" href="#">home</a></li>
-                    <li style="float: left;list-style: none;padding: 16px 12px;"><a style="text-decoration: none;" href="#">home</a></li>
-                    <li style="float: left;list-style: none;padding: 16px 12px;"><a style="text-decoration: none;" href="#">home</a></li>
-                    <li style="float: left;list-style: none;padding: 16px 12px;"><a style="text-decoration: none;" href="#">home</a></li>
-                    <li style="float: left;list-style: none;padding: 16px 12px;"><a style="text-decoration: none;" href="#">home</a></li>
+<div class="web_header" *ngIf ="false">
+    <div class="header_flex">
+        <div class="logo"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiQL7-Ghj-Sc1NVslbdCATU8cc5WrtGSfpNA&usqp=CAU" alt=""></a></div>
+        <div class="header_menu">
+            <ul class="menus">
+                <li class="menu_list" ><a class="active" href="">Home</a></li>
+                <li class="menu_list" ><a  href="">Home</a></li>
+                <li class="menu_list" ><a  href="">Home</a></li>
+                <li class="menu_list" ><a  href="">Home</a></li>
+                <li class="menu_list" ><a  href="">Home</a></li>
+                <li class="menu_list" ><a  href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
 
-                </ul> -->
-            </div>
-
-        <div class="hrader_right" style="width: auto;float: right;text-align: right;display: flex;margin-left: auto;align-items: center;font-size: 15px;">
-            
-            <div class="signup_btn" style="margin:0 12px">
-                <a href="#" style="padding: 14px 20px;background: orange;">SignUp</a>
-            </div>
-            <!-- <h3 style="width: auto;margin:0 12px">Aout Us</h3>
-            <div class="whatsup" style="width: 55px;background: chocolate;height: 35px;margin:0 12px">
-                <img src="" alt="">
-            </div> -->
+            </ul>
         </div>
+    </div>
+</div>
+
+
+<div class="mob_header" *ngIf ="true" style="height: 70px;line-height: 70px;background: chartreuse;padding: 0 20px;">
+    <div class="mob_header_flex" id="mySidebar" style="display: flex;justify-content: space-between;align-items: center;">
+        <div class="mob_logo" style="width: 100px;height: 55px;"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiQL7-Ghj-Sc1NVslbdCATU8cc5WrtGSfpNA&usqp=CAU" alt=""></a></div>
+        <div class="mob_menu" style="display: flex;justify-content: space-around;align-items: center;">
+            <div class="mob_header_search" style="padding: 5px 10px;">search</div>
+            <div class="mob_header_cart"style="padding: 5px 10px;">cart</div>
+            <button id="menu_button" class="openbtn" (click) = "openNav()" style="display: block;font-size: 20px;cursor: pointer;background-color: #111;color: white;padding: 10px 15px;
+            border: none;">☰</button> 
+
+            <div class="mob_header_menu" *ngIf="false">
+                <ul class="mob_side_menus">
+                    <li class="menu_list" ><a class="active" href="">Home</a></li>
+                    <li class="menu_list" ><a  href="">Home</a></li>
+                    <li class="menu_list" ><a  href="">Home</a></li>
+                    <li class="menu_list" ><a  href="">Home</a></li>
+                    <li class="menu_list" ><a  href="">Home</a></li>
+                    <li class="menu_list" ><a  href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
+                </ul>
+            </div>            
         </div>
     </div>
 </div>

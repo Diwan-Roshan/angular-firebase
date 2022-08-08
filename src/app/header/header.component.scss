@@ -1,4 +1,17 @@
-body{
-    margin: 0;
+.web_header{padding: 0px 55px;background: rgb(184, 192, 206);position: sticky;top:0;z-index: 999;
+    .header_flex{display: flex;justify-content:space-between;align-items: center;height: 65px;
+        .logo{height: 55px;width: 100px;padding-left: 8px;}
+        .header_menu{
+            .menus{display: flex;justify-content:space-between;align-items: center;
+                .menu_list{position: relative;
+                    a{padding: 0 20px;color:rgb(14, 12, 27);transition: 0.3s ease;
+                        &.active{color: rgb(15, 8, 46);
+                            &::after{content:"";position: absolute;width: 30%;height: 2px;background: rgb(15, 8, 46);top: 18px;left: 20px;}
+                        }
+                        &:hover{color: rgb(15, 8, 46);}
+                }
+                }
+            }
+        }
+    }
 }
-// * {margin: 0;padding: 0;}
