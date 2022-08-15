@@ -8,6 +8,7 @@ import { generate } from 'rxjs';
 })
 export class HeaderComponent implements OnInit {
   public object = [{'a':{'id':'1','name':'dr'},'b':{'id':'2','name':'drs'},'c':{'id':'3','name':'drr'}}]
+  public menu = false;
   constructor() { }
 
   
@@ -23,15 +24,14 @@ export class HeaderComponent implements OnInit {
   }
 
   openNav():any{
-    // document.getElementById("mySidebar").style.width = "200px";
-    // this.base_right = true;
-    document.body.classList.add("modal-visible");
+    document.body.classList.add('bg');
+    this.menu = true;
   }
 
   closeNav():any {
-    // document.getElementById("mySidebar").style.width = "0";
-    // this.base_right = false;
-    document.body.classList.remove("modal-visible");
+    document.body.classList.remove('bg');
+    this.menu = false;
+
   }
 
 

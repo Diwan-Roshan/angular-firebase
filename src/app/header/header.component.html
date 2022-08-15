@@ -16,25 +16,34 @@
 </div>
 
 
-<div class="mob_header" *ngIf ="true" style="height: 70px;line-height: 70px;background: chartreuse;padding: 0 20px;">
-    <div class="mob_header_flex" id="mySidebar" style="display: flex;justify-content: space-between;align-items: center;">
-        <div class="mob_logo" style="width: 100px;height: 55px;"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiQL7-Ghj-Sc1NVslbdCATU8cc5WrtGSfpNA&usqp=CAU" alt=""></a></div>
-        <div class="mob_menu" style="display: flex;justify-content: space-around;align-items: center;">
-            <div class="mob_header_search" style="padding: 5px 10px;">search</div>
-            <div class="mob_header_cart"style="padding: 5px 10px;">cart</div>
-            <button id="menu_button" class="openbtn" (click) = "openNav()" style="display: block;font-size: 20px;cursor: pointer;background-color: #111;color: white;padding: 10px 15px;
-            border: none;">☰</button> 
-
-            <div class="mob_header_menu" *ngIf="false">
-                <ul class="mob_side_menus">
-                    <li class="menu_list" ><a class="active" href="">Home</a></li>
-                    <li class="menu_list" ><a  href="">Home</a></li>
-                    <li class="menu_list" ><a  href="">Home</a></li>
-                    <li class="menu_list" ><a  href="">Home</a></li>
-                    <li class="menu_list" ><a  href="">Home</a></li>
-                    <li class="menu_list" ><a  href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
-                </ul>
-            </div>            
+<div class="mob_header" *ngIf="true">
+    <div class="mob_header_flex">
+        <div class="mob_logo">
+            <button class="hambergurOpen" (click)="openNav()">☰</button>
+            <div >
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiQL7-Ghj-Sc1NVslbdCATU8cc5WrtGSfpNA&usqp=CAU"
+                    alt="">
+                </div>
+        </div>
+        <div class="mob_menu">
+            <div class="mob_header_search">search</div>
+            <div class="mob_header_cart">cart</div>
         </div>
     </div>
-</div>
+
+    <div class="hambergur_menu" *ngIf="!!menu">
+        <button class="hambergurClose" (click)="closeNav()">x</button>
+        <ul class="mob_side_menus">
+            <div class="mob_logo"><a href="#"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiQL7-Ghj-Sc1NVslbdCATU8cc5WrtGSfpNA&usqp=CAU"
+                        alt=""></a></div>
+            <li class="menu_list" (click)="closeNav()"><a class="active" href="">Home</a></li>
+            <li class="menu_list" (click)="closeNav()"><a href="">Home</a></li>
+            <li class="menu_list" (click)="closeNav()"><a href="">Home</a></li>
+            <li class="menu_list" (click)="closeNav()"><a href="">Home</a></li>
+            <li class="menu_list" (click)="closeNav()"><a href="">Home</a></li>
+            <!-- <li class="menu_list" (click)="closeNav()"><a href=""><i class="fa-solid fa-bag-shopping"></i></a></li> -->
+        </ul>
+    </div>
+</div>    
