@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-cards',
@@ -7,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardsComponent implements OnInit {
 
-  constructor() { }
+public product_data: any;
 
-  ngOnInit(): void {
-  }
+  constructor( private httpC:HttpClient) {
+    let url = '/assets/product_data.json'
+    this.httpC.get<any>(url).subscribe(data => {
+      this.product_data = data;
+      console.log(this.product_data)
 
+   })
+
+
+
+
+}
+ngOnInit(): void {
+
+}
 }
