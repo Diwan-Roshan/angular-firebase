@@ -12,4 +12,9 @@ export class DetailsPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  dd(){
+    console.log("jhfewjh")
+    localStorage.setItem("lastname", "Smith");
+  }
+
 }
