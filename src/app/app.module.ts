@@ -11,6 +11,7 @@ import { BannerComponent } from './banner/banner.component';
 import { CardsComponent } from './cards/cards.component';
 import { DetailsPageComponent } from './details-page/details-page.component';
 import { HttpClientModule } from '@angular/common/http'
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { HttpClientModule } from '@angular/common/http'
     HttpClientModule,
     AppRoutingModule,
     RouterModule,
+    FontAwesomeModule,
   ],
   
   providers: [],

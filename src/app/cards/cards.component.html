@@ -1,7 +1,7 @@
 <div class="card_section" >
     <div class="cars_head">
-        <div class="card_inner" *ngFor="let data of product_data">
-            <img src="https://m.media-amazon.com/images/I/51ggvKM2unL.jpg" alt="">
+        <div class="card_inner" (click)="detailsPage()" *ngFor="let data of product_data">
+            <img src="https://i.ibb.co/PmMD4xK/03.png" alt="">
             <div class="desc" >
                 <span >adidas</span>
                 <h5 class="title" >{{data.title}}</h5>
@@ -10,7 +10,7 @@
                 <h4 >{{data.MRP}}</h4> 
 
             </div>
-            <a href="#"><img class="cart"  src="https://m.media-amazon.com/images/I/51ggvKM2unL.jpg" alt=""></a>
+            <a href="#"><img class="cart"  src="https://i.ibb.co/WxQ83wn/01.png" alt=""></a>
         </div>
     </div>
 </div>

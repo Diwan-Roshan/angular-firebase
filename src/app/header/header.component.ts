@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { generate } from 'rxjs';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-header',
@@ -9,6 +10,7 @@ import { generate } from 'rxjs';
 export class HeaderComponent implements OnInit {
   public object = [{'a':{'id':'1','name':'dr'},'b':{'id':'2','name':'drs'},'c':{'id':'3','name':'drr'}}]
   public menu = false;
+  faCoffee = faCoffee;
   constructor() { }
 
   

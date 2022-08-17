@@ -4,58 +4,57 @@
 
             <div class="details_left">
                 <div class="details_main_image">
-                    <img src="https://designmodo.com/demo/product-page/images/red.png" alt="">
+                    <img id="img" [src]="MainImagePath" alt="">
                 </div>
                 <div class="details_sub_images">
-                    <div class="subImage_block">
-                        <img src="https://designmodo.com/demo/product-page/images/red.png" alt="">
+                    <div class="subImage_block" (click)='replace()' >
+                        <img src="https://i.ibb.co/PmMD4xK/03.png" alt="">
                     </div>
-                    <div class="subImage_block">
-                        <img src="https://designmodo.com/demo/product-page/images/black.png" alt="">
+                    <div class="subImage_block" >
+                        <img src="https://i.ibb.co/WxQ83wn/01.png" alt="">
                     </div>
-                    <div class="subImage_block">
-                        <img src="https://designmodo.com/demo/product-page/images/blue.png" alt="">
+                    <div class="subImage_block" >
+                        <img src="https://i.ibb.co/gMFhGZ3/04.png" alt="">
                     </div>
-                    <div class="subImage_block">
+                    <div class="subImage_block" >
                         <img src="https://designmodo.com/demo/product-page/images/red.png" alt="">
                     </div>
                 </div>
             </div>
 
             <div class="details_right">
-                <div class="p_title" style="padding-bottom: 15px;">
-                    <span class="product_brand" style="">product colour</span>
-                    <p class="product_title" style="">HUZUR Mens Green Kurta Golden Pajama Green Jacket set</p>
+                <div class="p_title">
+                    <span class="product_brand">product colour</span>
+                    <p class="product_title">HUZUR Mens Green Kurta Golden Pajama Green Jacket set</p>
                     <div style="border-bottom: 1px solid black"></div>
                 </div>
                 <div class="price_tag">
-                    <span class="sale_price" style="">price: <span class="price_value" style="">₹650</span> 
-                    <span class="mrp" style="">MRP <del>₹1499</del></span></span>
+                    <span class="sale_price">price: <span class="price_value">₹650</span> 
+                    <span class="mrp">MRP <del>₹1499</del></span></span>
                     <p>special discount</p>
                 </div>
                 <div class="size_block" >
-                    <div class="size_chart" style="">
-                        <span class="size_text" style="">SELECT SIZE</span>
-                        <span class="size_click" style=""><a href="#" class="size_chart_btn"
-                                style="">SIZE CHART</a></span>
+                    <div class="size_chart">
+                        <span class="size_text">SELECT SIZE</span>
+                        <span class="size_click"><a href="#" class="size_chart_btn"
+                               >SIZE CHART</a></span>
                     </div>
-                    <div class="sizes" style="">
-                        <div class="size_btn" style="">
-                            <button class="size_value" (click)="dd()" style="">38</button>
-                            <button class="size_value"  style="">38</button>
-                            <button class="size_value"  style="">38</button>
-                            <button class="size_value" style="">38</button>
-                            <button class="size_value" style="">38</button>
-                            <button class="size_value" style="">38</button>
+                    <div class="sizes">
+                        <div class="size_btn">
+                            <button class="size_value" (click)="dd()">38</button>
+                            <button class="size_value" >38</button>
+                            <button class="size_value" >38</button>
+                            <button class="size_value">38</button>
+                            <button class="size_value">38</button>
                         </div>
                     </div>
                 </div>
-                <div class="cart_btn" style="">
-                    <div class="btn_flex" style="">
-                        <div class="add_to_cart" style="">
-                            <button class="add_btn" style="">Add to cart</button>
+                <div class="cart_btn">
+                    <div class="btn_flex">
+                        <div class="add_to_cart">
+                            <button class="add_btn">Add to cart</button>
                         </div>
-                        <div class="whats_app" style="">
+                        <div class="whats_app">
                             <!-- <button style="border-radius: 5px;border: none;outline: none;cursor: pointer;padding: 15px 35px;background: red;color: white;font-size: 18px;font-weight: 500;">Buy on
                             <a target="_blank" href="https://wa.me/+918801833417"><img style="width: 30px;" src="https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-1.png" alt=""></a>
                             </button> -->
@@ -64,7 +63,7 @@
                     </div>
 
                 </div>
-                <div class="care_instruction" style="">
+                <div class="care_instruction">
                     <ul style="padding-left: 25px;">
                         <li style="list-style: disc;">Care Instructions: Dry Clean Only</li>
                         <li style="list-style: disc;">Fit Type: Regular</li>
@@ -73,7 +72,7 @@
                     </ul>
                 </div>
                 <div style="border-bottom: 1px solid black;width: 90%;margin: auto;"></div>
-                <div class="product_details" style="">
+                <div class="product_details">
                     <div class="p_head">
                         <h3>PRODUCT DETAILS</h3>
                         <p style="margin-top: 15px;">Black checked opaque Casual shirt ,has a spread collar, button placket, 1 patch pocket, long roll-up sleeves, curved hem</p>
@@ -85,75 +84,73 @@
                         <p>Mashine Wash</p>
                         </div>
                     </div>
-                    <div class="spec" style="">
+                    <div class="spec">
                         <h3>SPECTFICATIONS</h3>
-                        <table class="p_table" style="">
+                        <table class="p_table">
                             <tr>
                                 <td>
-                                    <span class="spec_head" style="">style</span>
-                                    <p class="spec_title" style="">collor</p>
-                                    <div class="spec_border" style=""></div>
+                                    <span class="spec_head">style</span>
+                                    <p class="spec_title">collor</p>
+                                    <div class="spec_border"></div>
                                 </td>
                                 <td>
-                                    <span class="spec_head" style="">style</span>
-                                    <p class="spec_title" style="">collor</p>
-                                    <div class="spec_border" style=""></div>
+                                    <span class="spec_head">style</span>
+                                    <p class="spec_title">collor</p>
+                                    <div class="spec_border"></div>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <span class="spec_head" style="">style</span>
-                                    <p class="spec_title" style="">collor</p>
-                                    <div class="spec_border" style=""></div>
+                                    <span class="spec_head">style</span>
+                                    <p class="spec_title">collor</p>
+                                    <div class="spec_border"></div>
                                 </td>
                                 <td>
-                                    <span class="spec_head" style="">style</span>
-                                    <p class="spec_title" style="">collor</p>
-                                    <div class="spec_border" style=""></div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span class="spec_head" style="">style</span>
-                                    <p class="spec_title" style="">collor</p>
-                                    <div class="spec_border" style=""></div>
-                                </td>
-                                <td>
-                                    <span class="spec_head" style="">style</span>
-                                    <p class="spec_title" style="">collor</p>
-                                    <div class="spec_border" style=""></div>
+                                    <span class="spec_head">style</span>
+                                    <p class="spec_title">collor</p>
+                                    <div class="spec_border"></div>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <span class="spec_head" style="">style</span>
-                                    <p class="spec_title" style="">collor</p>
-                                    <div class="spec_border" style=""></div>
+                                    <span class="spec_head">style</span>
+                                    <p class="spec_title">collor</p>
+                                    <div class="spec_border"></div>
                                 </td>
                                 <td>
-                                    <span class="spec_head" style="">style</span>
-                                    <p class="spec_title" style="">collor</p>
-                                    <div class="spec_border" style=""></div>
+                                    <span class="spec_head">style</span>
+                                    <p class="spec_title">collor</p>
+                                    <div class="spec_border"></div>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <span class="spec_head" style="">style</span>
-                                    <p class="spec_title" style="">collor</p>
-                                    <div class="spec_border" style=""></div>
+                                    <span class="spec_head">style</span>
+                                    <p class="spec_title">collor</p>
+                                    <div class="spec_border"></div>
                                 </td>
                                 <td>
-                                    <span class="spec_head" style="">style</span>
-                                    <p class="spec_title" style="">collor</p>
-                                    <div class="spec_border" style=""></div>
+                                    <span class="spec_head">style</span>
+                                    <p class="spec_title">collor</p>
+                                    <div class="spec_border"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="spec_head">style</span>
+                                    <p class="spec_title">collor</p>
+                                    <div class="spec_border"></div>
+                                </td>
+                                <td>
+                                    <span class="spec_head">style</span>
+                                    <p class="spec_title">collor</p>
+                                    <div class="spec_border"></div>
                                 </td>
                             </tr>
                         </table>
 
                     </div>
                 </div>
-
-
             </div>
         </div>
     </div>

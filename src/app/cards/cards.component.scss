@@ -1,13 +1,16 @@
 .card_section{padding: 20px 50px;
+    @media screen and (max-width:767px){padding: 10px;}
     .cars_head{display: flex;align-items: center;padding-top:20px;flex-wrap:wrap;
-        .card_inner{width: calc(20% - 46px);padding: 10px 12px;border: 1px solid black;transition: 0.1s ease;margin: 15px 10px;
+        .card_inner{width: calc(20% - 46px);padding: 10px 12px;background: #fff0f0;transition: 0.1s ease;margin: 15px 10px;
             border-radius: 25px;cursor: pointer;box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.03);position: relative;
             @media screen and (max-width:1440px){width: calc(25% - 46px);}
             @media screen and (max-width:1080px){width: calc(33% - 46px);}
-            @media screen and (max-width:767px){width: calc(50% - 46px);}
+            @media screen and (max-width:767px){width: calc(50% - 30px);padding:6px;margin:8px;}
             @media screen and (max-width:360px){width: calc(100% - 46px);}
 
-            &:hover{box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);transform: translateY(-5px);}
+            &:hover{box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);transform: translateY(-5px);
+            @media screen and (max-width:767px){transform: none;}
+            }
             img{border-radius: 20px;}
             .desc{padding: 10px 0;text-align: start;
                 span{color: rosybrown;font-size: 12px;}

@@ -1,4 +1,4 @@
-<div class="web_header" *ngIf ="false
+<div class="web_header" *ngIf ="true
 ">
     <div class="header_flex">
         <div class="logo"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiQL7-Ghj-Sc1NVslbdCATU8cc5WrtGSfpNA&usqp=CAU" alt=""></a>        
@@ -10,7 +10,7 @@
                 <li class="menu_list" ><a  href="">Home</a></li>
                 <li class="menu_list" ><a  href="">Home</a></li>
                 <li class="menu_list" ><a  href="">Home</a></li>
-                <li class="menu_list" ><a  href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <li class="menu_list" ><a  href=""><fa-icon [icon]="faCoffee"></fa-icon></a></li>
 
             </ul>
         </div>
@@ -18,7 +18,7 @@
 </div>
 
 
-<div class="mob_header" *ngIf="true">
+<div class="mob_header" *ngIf="false">
     <div class="mob_header_flex">
         <div class="mob_logo">
             <button class="hambergurOpen" (click)="openNav()">☰</button>
