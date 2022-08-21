@@ -1,6 +1,6 @@
 <div class="card_section" >
     <div class="cars_head">
-        <div class="card_inner" (click)="detailsPage()" *ngFor="let data of product_data">
+        <div class="card_inner" (click)="detailsPage(data.ID)" *ngFor="let data of product_data">
             <img src="https://i.ibb.co/PmMD4xK/03.png" alt="">
             <div class="desc" >
                 <span >adidas</span>

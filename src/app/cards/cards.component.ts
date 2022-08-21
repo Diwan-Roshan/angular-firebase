@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Router } from '@angular/router';
+import { Router, UrlTree } from '@angular/router';
+import { appConfig } from '../app.config';
 
 @Component({
   selector: 'app-cards',
@@ -26,8 +27,7 @@ public product_data: any;
 ngOnInit(): void {
 
 }
-detailsPage(){
-  console.log("ftyfy")
-  this.router.navigate(['details'])
+detailsPage(path: string | UrlTree){
+  this.router.navigateByUrl("details/" +path)
 }
 }

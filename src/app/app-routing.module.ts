@@ -8,7 +8,7 @@ import { SigninComponent } from './signin/signin.component';
 const routes: Routes = [
   { path : 'signin',component: SigninComponent},
   { path : '',component : CardsComponent},
-  { path : 'details', component : DetailsPageComponent},
+  { path : 'details/:key', component : DetailsPageComponent},
 ];
 
 @NgModule({
