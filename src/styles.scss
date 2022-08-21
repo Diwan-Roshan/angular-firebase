@@ -11,3 +11,87 @@ img{
 }
 li{list-style: none;}
 a{text-decoration: none;}
+.details_page{
+    .details_block{padding: 20px 58px;background:rgb(226, 230, 223);
+        @media screen and (max-width:767px){padding: 0;}
+        .details_inner{display: flex;height: 100%;padding:15px;margin:auto;max-width:1400px;
+            @media screen and (max-width:767px){display: inherit;padding:inherit}
+            .details_left{width: 55%;padding:10px;
+                @media screen and (max-width:767px){width: calc(100% - 20px);}
+                .details_main_image{width: 100%;background: rgb(230, 226, 226)}
+                .details_sub_images{padding: 15px 5px 10px;display:flex;justify-content:center;align-items:center;width:calc(100% - 10px);
+                    .subImage_block{width: calc(25% - 10px);border-radius: 10px;margin: 5px;background: rgb(205, 205, 224);}
+                }
+            }
+            .details_right{width: 45%;padding: 32px 25px;
+                @media screen and (max-width:767px){width: calc(100% - 30px);padding:5px 15px;}
+                .p_title{padding-bottom: 15px;
+                    .product_brand{color: blue;font-size: 16px;padding-bottom: 10px;
+                        @media screen and (max-width:767px){font-size: 14px;}
+                    }
+                    .product_title{font-size: 32px;font-weight: 500;padding: 10px 0;
+                        @media screen and (max-width:767px){font-size: 20px;}
+                    }
+                }
+                .price_tag{
+                    .sale_price{font-size: 18px;
+                        .price_value{font-size: 22px;color: red;font-weight: 500;}
+                    }
+                    .mrp{padding-left: 20px;font-size: 22px;font-weight: 100;}
+                }
+                .size_block{
+                    .size_chart{padding-top: 20px;
+                        .size_text{font-size: 20px;font-weight: 500;display: inline-block;
+                            @media screen and (max-width:767px){font-size: 18px;}
+                        }
+                        .size_click{padding-left: 25px;
+                            .size_chart_btn{color: palevioletred;font-weight: 600;font-size: 20px;
+                                @media screen and (max-width:767px){font-size: 18px;}
+
+                            }
+                        }
+                    }
+                    .sizes{margin-top: 20px;
+                        @media screen and (max-width:767px){margin-top: 10px;}
+                        .size_btn{display: flex;align-items: center;}
+                        .size_value{border-radius: 50%;outline: none;border: 2px solid red;height: 50px;width: 50px;cursor: pointer;margin: 10px 10px 10px 0;font-size: 16px;font-weight: 500;
+                            @media screen and (max-width:767px){height: 40px;width:40px;}
+                        }
+
+                    }
+                }
+                .cart_btn{margin-top: 20px;
+                    @media screen and (max-width:767px){margin-top: 12px;}
+                    .btn_flex{display: flex;align-items: center;
+                        .add_to_cart{margin: 6px 12px 6px 2px;
+                            .add_btn{border-radius: 25px;border: none;outline: none;cursor: pointer;padding: 15px 35px;background: red;color: white;font-size: 18px;font-weight: 500;}
+                        }
+                        .whats_app{width: 30px;
+                            .whats_app_btn{}
+                        }
+                    }
+                }
+                .care_instruction{margin-top: 20px;margin-bottom: 20px;}
+                .product_details{padding-top: 20px;padding-right: 50px;
+                    @media screen and (max-width:767px){padding-right: 15px;}
+                    .p_head{}
+                    .spec{margin-top: 15px;
+                        .p_table{padding: 5px 10px 30px;width: 100%;margin-top: 10px;
+                            @media screen and (max-width:767px){padding: 5px 0 20px;margin-top:0;}
+                            
+                            tr{
+                                td{
+                                    .spec_head{font-size: 13px;color: #98a6da;margin-bottom: 5px;padding-left: 4px;}
+                                    .spec_title{font-size: 16px;color:#282c3f;margin-bottom: 4px;font-weight: 400;padding-left: 4px;}
+                                    .spec_border{border-bottom: 1px solid black;width: 85%;}
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+img{width: 100%;height: 100%;}
