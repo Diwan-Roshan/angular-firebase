@@ -27,7 +27,8 @@ public product_data: any;
 ngOnInit(): void {
 
 }
-detailsPage(path: string | UrlTree){
-  this.router.navigateByUrl("details/" +path)
+detailsPage(path: any){
+  let target = btoa(path)
+  this.router.navigateByUrl("details/" +target)
 }
 }

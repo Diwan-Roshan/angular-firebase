@@ -39,6 +39,8 @@ public productDetails : any;
   }
   getdata(product_data: any){
     this.param = this.activatedRouter.snapshot.paramMap.get('key');
+   this.param =  atob(this.param)
+    console.log(this.param)
     for(let i=0; i < product_data.length;i++){
       if(product_data[i].ID == this.param){
         this.productDetails = product_data[i]
