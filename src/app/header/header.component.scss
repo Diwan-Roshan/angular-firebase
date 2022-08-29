@@ -1,6 +1,6 @@
 .web_header{padding: 0px 55px;background: rgb(184, 192, 206);position: sticky;top:0;z-index: 999;
     .header_flex{display: flex;justify-content:space-between;align-items: center;height: 65px;
-        .logo{height: 55px;width: 100px;padding-left: 8px;}
+        .logo{height: 58px;width: 125px;padding-left: 8px;}
         .header_menu{
             .menus{display: flex;justify-content:space-between;align-items: center;
                 .menu_list{position: relative;
@@ -17,8 +17,8 @@
 }
 
 .mob_header{background: chartreuse;
-    .mob_header_flex{display: flex;justify-content: space-between;align-items: center;padding:0 15px;
-        .mob_logo{width: 100px;height: 55px;
+    .mob_header_flex{display: flex;justify-content: space-between;align-items: center;padding:0 15px 0 5px;height:55px;
+        .mob_logo{width: 110px;
             .hambergurOpen{display: block;font-size: 20px;cursor: pointer;background-color: #111;color: white;padding: 10px 15px;border: none;}
         }
         .mob_menu{display: flex;justify-content: space-around;align-items: center;

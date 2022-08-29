@@ -1,6 +1,7 @@
 .card_section{padding: 20px 50px;
     @media screen and (max-width:767px){padding: 10px;}
     .cars_head{display: flex;align-items: center;padding-top:20px;flex-wrap:wrap;
+        @media screen and (max-width:767px){padding-top: 0;}
         .card_inner{width: calc(20% - 46px);padding: 10px 12px;background: #fff0f0;transition: 0.1s ease;margin: 15px 10px;
             border-radius: 25px;cursor: pointer;box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.03);position: relative;
             @media screen and (max-width:1440px){width: calc(25% - 46px);}

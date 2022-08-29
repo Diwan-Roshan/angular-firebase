@@ -1,5 +1,4 @@
-<div class="web_header" *ngIf="false
-">
+<div class="web_header" *ngIf="false">
     <div class="header_flex">
         <div class="logo" routerLink="/"><a href="#"><img src="https://i.ibb.co/nj9nnPY/weblogo1.png" alt=""></a>
         </div>
@@ -22,11 +21,15 @@
 
 <div class="mob_header" *ngIf="true">
     <div class="mob_header_flex">
-        <div class="mob_logo">
+<!-- hambergerMenu -->
+        <!-- <div class="mob_logo">
             <button class="hambergurOpen" (click)="openNav()">☰</button>
             <div routerLink="/">
                 <img src="https://i.ibb.co/nj9nnPY/weblogo1.png" alt="">
             </div>
+        </div> -->
+        <div class="mob_logo" routerLink="/">
+            <img src="https://i.ibb.co/nj9nnPY/weblogo1.png" alt="">
         </div>
         <div class="mob_menu">
             <div class="mob_header_search">search</div>
