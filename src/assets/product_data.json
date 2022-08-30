@@ -7,10 +7,10 @@
         "Addto_Cart":"false",
         "ID":"801",
 		"image_data":[
-        "orange1.png",
-        "orange2.png",
-        "orange3.png",
-        "orange4.png"
+        "yellow1.png",
+        "yellow2.png",
+        "yellow3.png",
+        "yellow4.png"
         ]
        
     },
@@ -37,10 +37,10 @@
         "Addto_Cart":"false",
         "ID":"803",
 		"image_data":[
-        "orange1.png",
-        "orange2.png",
-        "orange3.png",
-        "orange4.png"
+        "green1.png",
+        "green2.png",
+        "green3.png",
+        "green4.png"
         ]
        
     },
@@ -52,10 +52,10 @@
         "Addto_Cart":"false",
         "ID":"804",
 		"image_data":[
-        "orange1.png",
-        "orange2.png",
-        "orange3.png",
-        "orange4.png"
+        "blue1.png",
+        "blue2.png",
+        "blue3.png",
+        "blue4.png"
         ]
        
     },
@@ -67,10 +67,40 @@
         "Addto_Cart":"false",
         "ID":"805",
 		"image_data":[
-        "orange1.png",
-        "orange2.png",
-        "orange3.png",
-        "orange4.png"
+        "red1.png",
+        "red2.png",
+        "red3.png",
+        "red4.png"
+        ]
+       
+    },
+    {
+        "title":"Product 1",
+        "Rating":" 5 Star",
+        "Price":" 199/-",
+        "MRP":"299/-",
+        "Addto_Cart":"false",
+        "ID":"806",
+		"image_data":[
+        "white1.png",
+        "white2.png",
+        "white3.png",
+        "white4.png"
+        ]
+       
+    },
+    {
+        "title":"Product 1",
+        "Rating":" 5 Star",
+        "Price":" 199/-",
+        "MRP":"299/-",
+        "Addto_Cart":"false",
+        "ID":"807",
+		"image_data":[
+        "sky1.png",
+        "sky2.png",
+        "sky3.png",
+        "sky4.png"
         ]
        
     }

@@ -2,7 +2,7 @@
     <div class="cars_head">
         <div class="card_inner"  *ngFor="let data of product_data">
             <div (click)="detailsPage(data.ID)">
-                <img src="../../assets/{{data.image_data[0]}}" alt="">
+                <img src="../../assets/{{data.ID}}/{{data.image_data[0]}}" alt="">
             <div class="desc" >
                 <span >adidas</span>
                 <h5 class="title" >{{data.title}}</h5>

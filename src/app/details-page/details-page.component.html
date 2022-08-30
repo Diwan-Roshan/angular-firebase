@@ -4,11 +4,11 @@
 
             <div class="details_left">
                 <div class="details_main_image">
-                    <img id="img" class="Img" src="../../assets/{{productDetails.image_data[cIndex]}}" alt="">
+                    <img id="img" class="Img" src="../../assets/{{productDetails.ID}}/{{productDetails.image_data[cIndex]}}" alt="">
                 </div>
                 <div class="details_sub_images" *ngFor="let imgData of productDetails.image_data; let  i = index">
                     <div class="subImage_block" (click)='replace()' >
-                        <img id="img" [ngClass]="{'active':(i == cIndex)}" class="Img" src="../../assets/{{imgData}}" alt="">
+                        <img id="img" [ngClass]="{'active':(i == cIndex)}" class="Img" src="../../assets/{{productDetails.ID}}/{{imgData}}" alt="">
                     </div>
                 </div>
             </div>

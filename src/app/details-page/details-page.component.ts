@@ -48,6 +48,7 @@ public productDetails : any;
       if(product_data[i].ID == this.param){
         this.productDetails = product_data[i]
         this.image_data = product_data.image_data
+        console.log(this.productDetails)
       }
     }
   }
