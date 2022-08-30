@@ -1,7 +1,8 @@
 <div class="card_section" >
     <div class="cars_head">
-        <div class="card_inner" (click)="detailsPage(data.ID)" *ngFor="let data of product_data">
-            <img src="../../assets/orange2.png" alt="">
+        <div class="card_inner"  *ngFor="let data of product_data">
+            <div (click)="detailsPage(data.ID)">
+                <img src="../../assets/{{data.image_data[0]}}" alt="">
             <div class="desc" >
                 <span >adidas</span>
                 <h5 class="title" >{{data.title}}</h5>
@@ -10,7 +11,8 @@
                 <h4 >{{data.MRP}}</h4> 
 
             </div>
-            <a href="#"><img class="cart"  src="https://i.ibb.co/WxQ83wn/01.png" alt=""></a>
+            </div>
+            <div (click)="addtocart(data)"><img class="cart"  src="https://i.ibb.co/WxQ83wn/01.png" alt=""></div>
         </div>
     </div>
 </div>

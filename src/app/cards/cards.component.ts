@@ -31,4 +31,8 @@ detailsPage(path: any){
   let target = btoa(path)
   this.router.navigateByUrl("details/" +target)
 }
+addtocart(data: { ID: string; }){
+  console.log("hello")
+localStorage.setItem("cart",data.ID)
+}
 }

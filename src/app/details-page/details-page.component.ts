@@ -15,6 +15,8 @@ public MainImagePath ='https://designmodo.com/demo/product-page/images/black.png
 public ImagePath = 'https://designmodo.com/demo/product-page/images/red.png'
 public product_data : any;
 public param:any;
+image_data:any
+cIndex = 0;
 
 public productDetails : any;
 
@@ -30,7 +32,9 @@ public productDetails : any;
    }
 
   ngOnInit(): void {
-    
+    this.id = setInterval(() => {
+      this.cIndex = (this.cIndex >= this.productDetails.image_data.length-1) ? 0 : this.cIndex +1; 
+    }, 2500);
   }
 
   dd(){
@@ -40,10 +44,10 @@ public productDetails : any;
   getdata(product_data: any){
     this.param = this.activatedRouter.snapshot.paramMap.get('key');
    this.param =  atob(this.param)
-    console.log(this.param)
     for(let i=0; i < product_data.length;i++){
       if(product_data[i].ID == this.param){
         this.productDetails = product_data[i]
+        this.image_data = product_data.image_data
       }
     }
   }
