@@ -12,6 +12,8 @@ import { CardsComponent } from './cards/cards.component';
 import { DetailsPageComponent } from './details-page/details-page.component';
 import { HttpClientModule } from '@angular/common/http'
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FooterComponent } from './footer/footer.component';
+import { MyaddresComponent } from './myaddres/myaddres.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HeaderComponent,
     BannerComponent,
     CardsComponent,
-    DetailsPageComponent
+    DetailsPageComponent,
+    FooterComponent,
+    MyaddresComponent
   ],
   imports: [
     BrowserModule,

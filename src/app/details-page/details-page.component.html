@@ -7,7 +7,7 @@
                     <img id="img" class="Img" src="../../assets/{{productDetails.ID}}/{{productDetails.image_data[cIndex]}}" alt="">
                 </div>
                 <div class="details_sub_images" *ngFor="let imgData of productDetails.image_data; let  i = index">
-                    <div class="subImage_block" (click)='replace()' >
+                    <div class="subImage_block" (click)='seeOtherSide(imgData)' >
                         <img id="img" [ngClass]="{'active':(i == cIndex)}" class="Img" src="../../assets/{{productDetails.ID}}/{{imgData}}" alt="">
                     </div>
                 </div>

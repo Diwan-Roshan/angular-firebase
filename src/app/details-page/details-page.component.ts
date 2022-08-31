@@ -32,9 +32,9 @@ public productDetails : any;
    }
 
   ngOnInit(): void {
-    this.id = setInterval(() => {
-      this.cIndex = (this.cIndex >= this.productDetails.image_data.length-1) ? 0 : this.cIndex +1; 
-    }, 2500);
+    // this.id = setInterval(() => {
+    //   this.cIndex = (this.cIndex >= this.productDetails.image_data.length-1) ? 0 : this.cIndex +1; 
+    // }, 2500);
   }
 
   dd(){
@@ -52,7 +52,9 @@ public productDetails : any;
       }
     }
   }
-  replace(){
+  seeOtherSide(imageId: any){
+    console.log(this.productDetails)
+    this.cIndex = this.productDetails.image_data.indexOf(imageId)
 
   }
 
