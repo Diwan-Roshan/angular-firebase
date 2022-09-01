@@ -6,8 +6,8 @@
                 <div class="details_main_image">
                     <img id="img" class="Img" src="../../assets/{{productDetails.ID}}/{{productDetails.image_data[cIndex]}}" alt="">
                 </div>
-                <div class="details_sub_images" *ngFor="let imgData of productDetails.image_data; let  i = index">
-                    <div class="subImage_block" (click)='seeOtherSide(imgData)' >
+                <div class="details_sub_images">
+                    <div class="subImage_block" (click)='seeOtherSide(imgData)' *ngFor="let imgData of productDetails.image_data; let  i = index" >
                         <img id="img" [ngClass]="{'active':(i == cIndex)}" class="Img" src="../../assets/{{productDetails.ID}}/{{imgData}}" alt="">
                     </div>
                 </div>
