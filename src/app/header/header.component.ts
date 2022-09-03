@@ -11,7 +11,14 @@ export class HeaderComponent implements OnInit {
   public object = [{'a':{'id':'1','name':'dr'},'b':{'id':'2','name':'drs'},'c':{'id':'3','name':'drr'}}]
   public menu = false;
   faCoffee = faCoffee;
-  constructor() { }
+  web = true;
+  constructor() { 
+    if(window.innerWidth >= 991){
+      this.web = true;
+    }else if(window.innerWidth < 990){
+      this.web = false;
+    }
+  }
 
   
   ngOnInit(): void {

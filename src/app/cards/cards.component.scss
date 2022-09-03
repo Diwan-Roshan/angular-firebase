@@ -1,8 +1,8 @@
-.card_section{padding: 20px 50px;
+.card_section{padding: 20px 50px;background: seashell;
     @media screen and (max-width:767px){padding: 10px;}
     .cars_head{display: flex;align-items: center;padding-top:20px;flex-wrap:wrap;
         @media screen and (max-width:767px){padding-top: 0;}
-        .card_inner{width: calc(20% - 46px);padding: 10px 12px;background: #fff0f0;transition: 0.1s ease;margin: 15px 10px;
+        .card_inner{width: calc(20% - 46px);padding: 10px 12px;background: #efe2cb87;transition: 0.1s ease;margin: 15px 10px;
             border-radius: 25px;cursor: pointer;box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.03);position: relative;
             @media screen and (max-width:1440px){width: calc(25% - 46px);}
             @media screen and (max-width:1080px){width: calc(33% - 46px);}
@@ -17,7 +17,7 @@
                 span{color: rosybrown;font-size: 12px;}
                 h5{font-size: 15px;padding-top: 7px;color: saddlebrown;}
                 .star{font-size: 12px;color: sandybrown;}
-                h4{padding-top: 7px;font-size: 15px;font-weight: 700px;color: seagreen;}
+                h4{padding-top: 7px;font-size: 15px;font-weight: 600;color: seagreen;}
             }
             .cart{width: 40px;height: 40px;line-height: 40px;border-radius: 50%;border: 1px solid green;
                 position: absolute;bottom: 20px;right: 10px;}

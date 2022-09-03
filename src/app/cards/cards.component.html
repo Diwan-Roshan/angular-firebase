@@ -4,7 +4,7 @@
             <div (click)="detailsPage(data.ID)">
                 <img src="../../assets/{{data.ID}}/{{data.image_data[0]}}" alt="">
             <div class="desc" >
-                <span >adidas</span>
+                <span >{{data.cloth}}</span>
                 <h5 class="title" >{{data.title}}</h5>
                 <div class="star" >{{data.star}}</div>
                 <h4 >{{data.price}}</h4> 
@@ -12,7 +12,7 @@
 
             </div>
             </div>
-            <div (click)="addtocart(data)"><img class="cart"  src="https://i.ibb.co/WxQ83wn/01.png" alt=""></div>
+            <!-- <div (click)="addtocart(data)"><img class="cart"  src="https://i.ibb.co/WxQ83wn/01.png" alt=""></div> -->
         </div>
     </div>
 </div>

@@ -1,8 +1,17 @@
-.footer{ width: 100%; padding: 20px; background-color: black; display: flex;
-    .footer_left{  background-color: rgb(97, 78, 78); width: 60%; 
-        .title{
-            color: #fff;
+.footer{padding: 25px 50px; background-color: #fff7d0; display: flex;justify-content: center;align-items: flex-start;
+    @media screen and (max-width:991px){display: inherit;background:none}
+    .footer_left{width: 35%;
+        @media screen and (max-width:991px){width: 95%;margin:0 auto 10px;}
+        .aboutUs{
+            .NameTitle{color: black;}
+            .aboutusDesc{margin-top: 12px;font-size: 18px;color: black;
+                @media screen and (max-width:991px){font-size: 15px;}
+            }
+            .contact{margin-top: 10px;font-size: 20px;color: black;}
+            .whatsup{font-size: 22px;font-weight: 600;display: flex;align-items: center;color: black;}
         }
     }
-    .footer_right{width: 37%;}
+    .footer_right{width: 35%;
+        @media screen and (max-width:991px){width: 100%;}
+    }
 } 

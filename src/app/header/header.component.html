@@ -1,4 +1,4 @@
-<div class="web_header" *ngIf="false">
+<div class="web_header" *ngIf="!!web">
     <div class="header_flex">
         <div class="logo" routerLink="/"><a href="#"><img src="https://i.ibb.co/nj9nnPY/weblogo1.png" alt=""></a>
         </div>
@@ -19,7 +19,7 @@
 </div>
 
 
-<div class="mob_header" *ngIf="true">
+<div class="mob_header" *ngIf="!web">
     <div class="mob_header_flex">
 <!-- hambergerMenu -->
         <!-- <div class="mob_logo">

@@ -8,14 +8,14 @@
                 </div>
                 <div class="details_sub_images">
                     <div class="subImage_block" (click)='seeOtherSide(imgData)' *ngFor="let imgData of productDetails.image_data; let  i = index" >
-                        <img id="img" [ngClass]="{'active':(i == cIndex)}" class="Img" src="../../assets/{{productDetails.ID}}/{{imgData}}" alt="">
+                        <img id="img" [ngClass]="{'active':(i == cIndex)}" style="border-radius: 12px;" class="Img" src="../../assets/{{productDetails.ID}}/{{imgData}}" alt="">
                     </div>
                 </div>
             </div>
 
             <div class="details_right">
                 <div class="p_title">
-                    <span class="product_brand">product colour</span>
+                    <span class="product_brand">{{productDetails.cloth}}</span>
                     <p class="product_title">{{productDetails.title}}</p>
                     <div style="border-bottom: 1px solid black"></div>
                 </div>
@@ -66,7 +66,7 @@
                 <div class="product_details">
                     <div class="p_head">
                         <h3>PRODUCT DETAILS</h3>
-                        <p style="margin-top: 15px;">Black checked opaque Casual shirt ,has a spread collar, button placket, 1 patch pocket, long roll-up sleeves, curved hem</p>
+                        <p style="margin-top: 15px;">{{productDetails.details}}</p>
                     </div>
                     <div class="p_head" style="padding-top: 20px;">
                         <h3>MATERIAL & CARE</h3>
@@ -81,6 +81,30 @@
                             <tr>
                                 <td>
                                     <span class="spec_head">style</span>
+                                    <p class="spec_title">collor with buttons</p>
+                                    <div class="spec_border"></div>
+                                </td>
+                                <td>
+                                    <span class="spec_head">Quality</span>
+                                    <p class="spec_title">Cotton</p>
+                                    <div class="spec_border"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="spec_head">sleves</span>
+                                    <p class="spec_title">Full sleves</p>
+                                    <div class="spec_border"></div>
+                                </td>
+                                <td>
+                                    <span class="spec_head">style</span>
+                                    <p class="spec_title">plain kurta</p>
+                                    <div class="spec_border"></div>
+                                </td>
+                            </tr>
+                            <!-- <tr>
+                                <td>
+                                    <span class="spec_head">style</span>
                                     <p class="spec_title">collor</p>
                                     <div class="spec_border"></div>
                                 </td>
@@ -113,31 +137,7 @@
                                     <p class="spec_title">collor</p>
                                     <div class="spec_border"></div>
                                 </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span class="spec_head">style</span>
-                                    <p class="spec_title">collor</p>
-                                    <div class="spec_border"></div>
-                                </td>
-                                <td>
-                                    <span class="spec_head">style</span>
-                                    <p class="spec_title">collor</p>
-                                    <div class="spec_border"></div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span class="spec_head">style</span>
-                                    <p class="spec_title">collor</p>
-                                    <div class="spec_border"></div>
-                                </td>
-                                <td>
-                                    <span class="spec_head">style</span>
-                                    <p class="spec_title">collor</p>
-                                    <div class="spec_border"></div>
-                                </td>
-                            </tr>
+                            </tr> -->
                         </table>
 
                     </div>

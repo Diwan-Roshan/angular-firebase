@@ -1,107 +1,125 @@
 [
     {
-        "title":"Product 1",
+        "title":"Yellow colour Mens Kurta",
+        "cloth":"COTTON",
         "Rating":" 5 Star",
-        "Price":" 199/-",
-        "MRP":"299/-",
+        "Price":" 180/-",
+        "MRP":"250/-",
         "Addto_Cart":"false",
         "ID":"801",
 		"image_data":[
-        "yellow1.png",
-        "yellow2.png",
         "yellow3.png",
-        "yellow4.png"
-        ]
+        "yellow2.png",
+        "yellow4.png",
+        "yellow1.png"
+        ],
+        "details":"Plain Yellow Colour with collor buttons, chinese neck collor,full sleves hands"
        
     },
     {
-        "title":"Product 1",
+        "title":"Orange colour Mens Kurta",
+        "cloth":"COTTON",
         "Rating":" 5 Star",
-        "Price":" 199/-",
-        "MRP":"299/-",
+        "Price":" 180/-",
+        "MRP":"250/-",
         "Addto_Cart":"false",
         "ID":"802",
 		"image_data":[
-        "orange1.png",
         "orange2.png",
+        "orange4.png",
         "orange3.png",
-        "orange4.png"
-        ]
+        "orange1.png"
+        ],
+        "details":"Plain Orange Colour with collor buttons, chinese neck collor,full sleves hands"
        
     },
     {
-        "title":"Product 1",
+        "title":"Light Green slik Mens Kurta",
+        "cloth":"SILK",
         "Rating":" 5 Star",
-        "Price":" 199/-",
-        "MRP":"299/-",
+        "Price":" 180/-",
+        "MRP":"250/-",
         "Addto_Cart":"false",
         "ID":"803",
 		"image_data":[
-        "green1.png",
-        "green2.png",
         "green3.png",
-        "green4.png"
-        ]
+        "green2.png",
+        "green4.png",
+        "green1.png"
+        ],
+        "details":"Plain Light Green Colour with open collor, chinese neck collor,full sleves hands"
+
        
     },
     {
-        "title":"Product 1",
+        "title":"Blue colour Mens Kurta",
+        "cloth":"COTTON",
         "Rating":" 5 Star",
-        "Price":" 199/-",
-        "MRP":"299/-",
+        "Price":" 180/-",
+        "MRP":"250/-",
         "Addto_Cart":"false",
         "ID":"804",
 		"image_data":[
-        "blue1.png",
-        "blue2.png",
         "blue3.png",
-        "blue4.png"
-        ]
+        "blue2.png",
+        "blue4.png",
+        "blue1.png"
+        ],
+        "details":"Plain Blue Colour with collor buttons, chinese neck collor,full sleves hands"
+
        
     },
     {
-        "title":"Product 1",
+        "title":"Red colour Mens Kurta",
+        "cloth":"COTTON",
         "Rating":" 5 Star",
-        "Price":" 199/-",
-        "MRP":"299/-",
+        "Price":" 180/-",
+        "MRP":"250/-",
         "Addto_Cart":"false",
         "ID":"805",
 		"image_data":[
-        "red1.png",
-        "red2.png",
         "red3.png",
-        "red4.png"
-        ]
+        "red2.png",
+        "red4.png",
+        "red1.png"
+        ],
+        "details":"Plain Red Colour with collor buttons, chinese neck collor,full sleves hands"
        
     },
     {
-        "title":"Product 1",
+        "title":"white colour Mens Kurta",
+        "cloth":"COTTON",
         "Rating":" 5 Star",
-        "Price":" 199/-",
-        "MRP":"299/-",
+        "Price":" 180/-",
+        "MRP":"250/-",
         "Addto_Cart":"false",
         "ID":"806",
 		"image_data":[
-        "white1.png",
         "white2.png",
+        "white4.png",
         "white3.png",
-        "white4.png"
-        ]
+        "white1.png"
+        ],
+        "details":"Plain White Colour with collor buttons, chinese neck collor,full sleves hands"
+
        
     },
     {
-        "title":"Product 1",
+        "title":"Sky colour Silk Mens Kurta",
+        "cloth":"SILK",
         "Rating":" 5 Star",
-        "Price":" 199/-",
-        "MRP":"299/-",
+        "Price":" 180/-",
+        "MRP":"250/-",
         "Addto_Cart":"false",
         "ID":"807",
 		"image_data":[
-        "sky1.png",
         "sky2.png",
+        "sky4.png",
         "sky3.png",
-        "sky4.png"
-        ]
+        "sky1.png"
+        ],
+        "details":"Plain Sky Colour with open collor, chinese neck collor,full sleves hands"
+
        
     }
    
