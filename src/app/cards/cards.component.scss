@@ -17,7 +17,8 @@
                 span{color: rosybrown;font-size: 12px;}
                 h5{font-size: 15px;padding-top: 7px;color: saddlebrown;}
                 .star{font-size: 12px;color: sandybrown;}
-                h4{padding-top: 7px;font-size: 15px;font-weight: 600;color: seagreen;}
+                h4{padding-top: 7px;font-size: 15px;font-weight: 600;color: seagreen; float: left;}
+                .mrp{  margin-left: 10px;  text-decoration: line-through;}
             }
             .cart{width: 40px;height: 40px;line-height: 40px;border-radius: 50%;border: 1px solid green;
                 position: absolute;bottom: 20px;right: 10px;}
